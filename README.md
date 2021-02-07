@@ -25,9 +25,9 @@
 (ซึ่งมันจะทำให้ทุกคนเช้าใจการทำงานแบบ Parallel มากยิ่งขึ้น แล้วเข้าใจความแตกต่างจริงๆ ของ Synchronous and Asynchronous)  
 แต่ว่าใน Algorithm ที่ใช้ทั้ง Block and Thread ในการสร้างสูตรคูณ แม่ 2 ถึง แม้ 13 ยังมีปัญหาบางอย่างเกี่ยวกับลำดับการทำงานแบบ Parallel อยู่ สิ่งที่คุณต้องทำก็คือไปแก้ไขลำดับการทำงานให้ถูกต้อง  
 สามารถดูตัวอย่างการทำงานของ Block and Thread แบบอย่างใดอย่างหนึ่งจากตัวอย่างใน function multiplicationTableBlock และ multiplicationTableThread เพื่อความเข้าใจมากยิ่งขึ้นได้...  
-![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/0.png | width=800)  
-![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/1.png | width=800)  
-![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/2.png | width=800)  
+<img src="https://github.com/bagidea/cuda_basic_examles/blob/master/0.png" width="720">  
+<img src="https://github.com/bagidea/cuda_basic_examles/blob/master/1.png" width="720">  
+<img src="https://github.com/bagidea/cuda_basic_examles/blob/master/2.png" width="720">  
   
 ภาระกิจเสริม  
 1. สามารถอธิบายหลักการ GPU Parallel Programming ได้ชัดเจน  
