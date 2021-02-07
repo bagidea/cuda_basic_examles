@@ -1,5 +1,7 @@
 # CUDA BASIC EXAMPLES and GPU Parallel Programming  
   
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/GI4s4xAkuAU/0.jpg)](https://www.youtube.com/watch?v=GI4s4xAkuAU)  
+  
 สวัสดีครับ Examples นี้จัดทำขึ้นเพื่ออยากจะให้ทุกคนได้ลองเรียนรู้ และทำความเข้าใจเกี่ยวกับเรื่อง GPU Parallel Programming.  
 ซึ่งโค้ด Examples ทั้งหมดเป็นแค่ตัวอย่างง่ายๆ เพื่อให้ทุกคนนำเอาไปใช้ทดสอบการทำงานของโปรแกรม และแก้ไขลองผิดลองถูกต่างๆ เพื่อให้เกิดความเข้าใจมากยิ่งขึ้น  
   
