@@ -4,7 +4,7 @@
 ซึ่งโค้ด Examples ทั้งหมดเป็นแค่ตัวอย่างง่ายๆ เพื่อให้ทุกคนนำเอาไปใช้ทดสอบการทำงานของโปรแกรม และแก้ไขลองผิดลองถูกต่างๆ เพื่อให้เกิดความเข้าใจมากยิ่งขึ้น  
   
 ใน Example สุดท้าย ซึ่งก็คือ Ex4.cu จะเป็น Example เดียวที่ใช้ประโยชน์จาก GPU Parallel Programming ซึ่งเป็นตัวอย่างการหาค่า min, max, และผลรวม จากชุดตัวเลขทั้งหมด 507,510,784 จำนวน  
-ซึ่งใช้ประโยชน์จาก GPU ทั้ง Block และ Thread ในการประมวลผล ซึ่งผมได้ทำเวลาเปรียบเทียบไว้ให้ ระหว่าง GPU และ CPU หรือแม้กระทั้งการ Optimized loop ในตัวอย่าง CPU ด้วย (บางที Loop อาจจะไม่ได้เร็วเสมอไป...)
+ซึ่งใช้ประโยชน์จาก GPU ทั้ง Block และ Thread ในการประมวลผล ซึ่งผมได้ทำเวลาเปรียบเทียบไว้ให้ ระหว่าง GPU และ CPU หรือแม้กระทั่งการ Optimize loop ในตัวอย่าง CPU ด้วย (บางที Loop อาจจะไม่ได้เร็วเสมอไป...)
   
 จากนั้นถ้าใครอยากจะลองฝึกแก้โจทย์ที่ผมจะให้ต่อจากนี้ เพื่อเป็นการยืนยันความเข้าใจของคุณก็ให้ทำการ Clone project ออกไปได้เลย  
   
@@ -25,9 +25,9 @@
 (ซึ่งมันจะทำให้ทุกคนเช้าใจการทำงานแบบ Parallel มากยิ่งขึ้น แล้วเข้าใจความแตกต่างจริงๆ ของ Synchronous and Asynchronous)  
 แต่ว่าใน Algorithm ที่ใช้ทั้ง Block and Thread ในการสร้างสูตรคูณ แม่ 2 ถึง แม้ 13 ยังมีปัญหาบางอย่างเกี่ยวกับลำดับการทำงานแบบ Parallel อยู่ สิ่งที่คุณต้องทำก็คือไปแก้ไขลำดับการทำงานให้ถูกต้อง  
 สามารถดูตัวอย่างการทำงานของ Block and Thread แบบอย่างใดอย่างหนึ่งจากตัวอย่างใน function multiplicationTableBlock และ multiplicationTableThread เพื่อความเข้าใจมากยิ่งขึ้นได้...  
-![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/0.png)  
-![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/1.png)  
-![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/2.png)  
+![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/0.png | width=800)  
+![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/1.png | width=800)  
+![ScreenShot](https://github.com/bagidea/cuda_basic_examles/blob/master/2.png | width=800)  
   
 ภาระกิจเสริม  
 1. สามารถอธิบายหลักการ GPU Parallel Programming ได้ชัดเจน  
